@@ -1,7 +1,14 @@
 h1{
-    background-color: chocolate;
-
+    background-color: burlywood;
 }
+
+.classA{
+    background-color: aqua;
+}
+#first{
+background-color: darkorange;
+}
+
 h2{
-    background-color: crimson;
+    background-color: blue !important;
 }
