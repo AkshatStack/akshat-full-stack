@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.container{
+    background-color: rgb(247, 126, 247);
+    border-radius: 5px;
+    border:  2px solid rgb(133, 7, 218);
+    padding: 20px;
+    font-size: 40px;
+    font: bold;
+    font-style:italic;
+    width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+p{  
+    justify-content: center;
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes slide{
+    from{
+       margin-left: 100%;
+    }
+    to{
+        left: 0;
+    }
+}
