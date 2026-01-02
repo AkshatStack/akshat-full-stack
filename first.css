@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    background-color: black;
+    position: flex;
+ 
+
+}
+
+.Box{
+    height: 400px ;
+    width: 400px;
+    background-color: purple;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    animation-name: project;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+   
+    
+}
+.first{
+    display: flex;
+    color: orangered;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes project {
+    from{
+        transform: rotate(0deg) /*translateX(200px) rotate(0deg); */
+    }
+    to{
+        transform: rotate(360deg) /*translateX(200px) rotate(-360deg);*/
+    }
+} 
+
+.sun{
+    height: 50px;
+    width: 50px;
+    background-color: gold;
+    transform: translateX(100px);
+    border-radius: 50%;
+}
